@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 
 FEATURES = ["Brand", "Manufacture_Year", "Mileage_km", "Horsepower_PS", "Seats"]
-RANDOM_STATE = 42
+RANDOM_STATE = 6968
 
 
 @st.cache_resource
